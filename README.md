@@ -14,9 +14,6 @@ Segmenting brain tumors from MRI scans manually is time-intensive and subject to
 - Deep Learning
 - Image Segmentation
 
-## 🧠 Model Summary
-DUCK-Net is a convolutional neural network architecture tailored for biomedical segmentation tasks. It uses dense skip connections and efficient up/downsampling strategies to maintain spatial accuracy while capturing contextual information across MRI volumes.
-
 ## 📊 Project Highlights
 - Leveraged BraTS dataset with multimodal MRI scans (T1, T1CE, T2, FLAIR).
 - Implemented DUCK-Net using TensorFlow and Keras.
@@ -30,3 +27,20 @@ DUCK-Net is a convolutional neural network architecture tailored for biomedical 
 3. Model definition and training using DUCK-Net  
 4. Evaluation and visualization of segmentation performance
 
+## 🧠 DUCK-Net Architecture
+
+The architecture used for this project is DUCK-Net — a specialized convolutional neural network designed for high-precision biomedical image segmentation. It incorporates dense skip connections and optimized downsampling/upsampling blocks to preserve spatial features.
+
+![image](https://github.com/user-attachments/assets/f09c54b3-4ba0-49c0-894b-e6e62bdbf45a)
+
+## 🧪 Sample Predictions
+
+Below is a visual comparison between the ground truth tumor segmentation and the DUCK-Net model's prediction. This showcases how well the model identifies tumor boundaries in MRI scans.
+
+![image](https://github.com/user-attachments/assets/06473fd4-75ab-4591-8b72-1061f0248e06)
+
+## 🔄 Training Pipeline Overview
+
+The workflow includes preprocessing the BraTS dataset, training the DUCK-Net architecture, and evaluating segmentation results using standard metrics like Dice and IoU.
+
+![Training Pipeline](images/training_pipeline.png)
