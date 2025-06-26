@@ -30,7 +30,7 @@ The architecture used for this project is DUCK-Net — a specialized convolution
 
 ![image](https://github.com/user-attachments/assets/f09c54b3-4ba0-49c0-894b-e6e62bdbf45a)
 
-## 🧪 Sample Predictions
+## Sample Predictions
 
 Below is a visual comparison between the ground truth tumor segmentation and the DUCK-Net model's prediction. This showcases how well the model identifies tumor boundaries in MRI scans.
 
